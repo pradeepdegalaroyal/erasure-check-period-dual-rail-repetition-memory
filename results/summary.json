@@ -1,0 +1,1815 @@
+{
+  "config": {
+    "quick": false,
+    "seeds": 5,
+    "distances": [
+      3,
+      5,
+      7
+    ],
+    "shots_d": {
+      "3": 20000,
+      "5": 12000,
+      "7": 4000
+    },
+    "grid_seeds": 3,
+    "grid_shots": 8000,
+    "tau_grid": [
+      0.25,
+      0.5,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "pc_grid": [
+      0.002,
+      0.005,
+      0.01,
+      0.02,
+      0.04
+    ],
+    "grid_periods": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "eta_sweep": [
+      0.5,
+      0.7,
+      0.9,
+      0.99
+    ],
+    "lam_sweep": [
+      0.02,
+      0.06,
+      0.12,
+      0.2
+    ]
+  },
+  "main_agg": [
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "1",
+      "decoder": "blind",
+      "mean": 0.010353333914378815,
+      "std": 0.0002211213447778239,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "1",
+      "decoder": "flat",
+      "mean": 0.005736336307317803,
+      "std": 0.00013676249933212522,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "1",
+      "decoder": "flat_uncal",
+      "mean": 0.004289855862169846,
+      "std": 0.00010868004039183935,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "1",
+      "decoder": "graded",
+      "mean": 0.005282441242698993,
+      "std": 0.0001697762238288443,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "1",
+      "decoder": "majority",
+      "mean": 0.01973028711688003,
+      "std": 0.00030305735865152305,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "1",
+      "decoder": "oracle",
+      "mean": 0.003068910160613655,
+      "std": 0.0001382290286523518,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "2",
+      "decoder": "blind",
+      "mean": 0.01327742579345546,
+      "std": 0.0001789933213267293,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "2",
+      "decoder": "flat",
+      "mean": 0.00611635596980512,
+      "std": 0.00017610725578307959,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "2",
+      "decoder": "flat_uncal",
+      "mean": 0.005042759341238015,
+      "std": 0.00012808893639627508,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "2",
+      "decoder": "graded",
+      "mean": 0.005155700362425992,
+      "std": 9.395047628117706e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "2",
+      "decoder": "majority",
+      "mean": 0.016749457893272045,
+      "std": 0.0002873692856228534,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "2",
+      "decoder": "oracle",
+      "mean": 0.003201701181319337,
+      "std": 7.893666568484602e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "3",
+      "decoder": "blind",
+      "mean": 0.016637978740115363,
+      "std": 0.0004456168267031844,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "3",
+      "decoder": "flat",
+      "mean": 0.00739506134612794,
+      "std": 0.00015966044999486014,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "3",
+      "decoder": "flat_uncal",
+      "mean": 0.005963880356424102,
+      "std": 0.00022633785402148896,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "3",
+      "decoder": "graded",
+      "mean": 0.0062688579855010515,
+      "std": 0.00020403560285361965,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "3",
+      "decoder": "majority",
+      "mean": 0.015785560971587693,
+      "std": 0.00015946444756055774,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "3",
+      "decoder": "oracle",
+      "mean": 0.003621066671413275,
+      "std": 0.0001364239979685829,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "5",
+      "decoder": "blind",
+      "mean": 0.02028217785713542,
+      "std": 0.0004745656189651632,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "5",
+      "decoder": "flat",
+      "mean": 0.00863176156987144,
+      "std": 0.0003168761480822805,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "5",
+      "decoder": "flat_uncal",
+      "mean": 0.006878133401343023,
+      "std": 0.0002751054983300362,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "5",
+      "decoder": "graded",
+      "mean": 0.007630106965666345,
+      "std": 0.00041673615020000783,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "5",
+      "decoder": "majority",
+      "mean": 0.014604329109283887,
+      "std": 0.00018934380482619917,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "5",
+      "decoder": "oracle",
+      "mean": 0.003935364368116065,
+      "std": 0.0002201729316964332,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "none",
+      "decoder": "blind",
+      "mean": 0.02523487503454147,
+      "std": 0.00040095330419589656,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "none",
+      "decoder": "flat",
+      "mean": 0.010255338362502387,
+      "std": 0.000241987182119207,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "none",
+      "decoder": "flat_uncal",
+      "mean": 0.008326779419666681,
+      "std": 0.00016486720736741568,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "none",
+      "decoder": "graded",
+      "mean": 0.009121745185704605,
+      "std": 0.00023410057204313836,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "none",
+      "decoder": "majority",
+      "mean": 0.013328840794382632,
+      "std": 0.0004575004984087511,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "period": "none",
+      "decoder": "oracle",
+      "mean": 0.004067852928816342,
+      "std": 0.00018962912131776898,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "1",
+      "decoder": "blind",
+      "mean": 0.0031572259662487555,
+      "std": 9.259025469147007e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "1",
+      "decoder": "flat",
+      "mean": 0.0009638706874238066,
+      "std": 7.65415477452116e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "1",
+      "decoder": "flat_uncal",
+      "mean": 0.0007069059670030577,
+      "std": 3.96617759757248e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "1",
+      "decoder": "graded",
+      "mean": 0.0008918401177692575,
+      "std": 3.598115001517279e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "1",
+      "decoder": "majority",
+      "mean": 0.018271674739419385,
+      "std": 0.00027171612625483555,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "1",
+      "decoder": "oracle",
+      "mean": 0.00034568653549517554,
+      "std": 3.0899675889117796e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "2",
+      "decoder": "blind",
+      "mean": 0.004470216972911592,
+      "std": 0.00012897530179870742,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "2",
+      "decoder": "flat",
+      "mean": 0.00113612920723075,
+      "std": 0.00012252815535515125,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "2",
+      "decoder": "flat_uncal",
+      "mean": 0.0009076912300771319,
+      "std": 0.00011821495171880014,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "2",
+      "decoder": "graded",
+      "mean": 0.0009718272800519877,
+      "std": 0.00010932898180580057,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "2",
+      "decoder": "majority",
+      "mean": 0.015081331237645084,
+      "std": 0.00019841270839130771,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "2",
+      "decoder": "oracle",
+      "mean": 0.0003609974806281301,
+      "std": 6.356825161435722e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "3",
+      "decoder": "blind",
+      "mean": 0.00645213243614807,
+      "std": 0.00026675452202418567,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "3",
+      "decoder": "flat",
+      "mean": 0.0016784399627466384,
+      "std": 9.426147554605539e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "3",
+      "decoder": "flat_uncal",
+      "mean": 0.0011774282505657722,
+      "std": 6.17322845611372e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "3",
+      "decoder": "graded",
+      "mean": 0.0013365612806267848,
+      "std": 0.00017860567639534818,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "3",
+      "decoder": "majority",
+      "mean": 0.013642354295909959,
+      "std": 0.0003213085406469401,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "3",
+      "decoder": "oracle",
+      "mean": 0.0004165198130487055,
+      "std": 6.481427745267736e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "5",
+      "decoder": "blind",
+      "mean": 0.01094629206920689,
+      "std": 0.0003207149435615927,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "5",
+      "decoder": "flat",
+      "mean": 0.003357418632446757,
+      "std": 8.385316605013725e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "5",
+      "decoder": "flat_uncal",
+      "mean": 0.0022002763489083242,
+      "std": 0.00013135906605110306,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "5",
+      "decoder": "graded",
+      "mean": 0.002613189178546184,
+      "std": 0.00010855203148501459,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "5",
+      "decoder": "majority",
+      "mean": 0.012927689781301394,
+      "std": 0.00023374347132612387,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "5",
+      "decoder": "oracle",
+      "mean": 0.0007971413703375663,
+      "std": 6.867743367641449e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "none",
+      "decoder": "blind",
+      "mean": 0.025739611582305776,
+      "std": 0.0006613071734008398,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "none",
+      "decoder": "flat",
+      "mean": 0.007717286464464762,
+      "std": 0.00023616418213495384,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "none",
+      "decoder": "flat_uncal",
+      "mean": 0.004945951481642231,
+      "std": 6.527540326857016e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "none",
+      "decoder": "graded",
+      "mean": 0.0067104367839411734,
+      "std": 0.00025562530955672584,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "none",
+      "decoder": "majority",
+      "mean": 0.010982811199068819,
+      "std": 0.0002025032725875854,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "period": "none",
+      "decoder": "oracle",
+      "mean": 0.0015857693728482222,
+      "std": 8.280266947564283e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 7,
+      "period": "1",
+      "decoder": "flat",
+      "mean": 0.00015290039413760263,
+      "std": 4.207136734919187e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 7,
+      "period": "1",
+      "decoder": "graded",
+      "mean": 0.00013372420312165602,
+      "std": 3.099435259146937e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 7,
+      "period": "2",
+      "decoder": "flat",
+      "mean": 0.0002453699668603681,
+      "std": 4.9238962600308415e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 7,
+      "period": "2",
+      "decoder": "graded",
+      "mean": 0.00020935179865952405,
+      "std": 3.311816281940829e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 7,
+      "period": "3",
+      "decoder": "flat",
+      "mean": 0.00046439285957638836,
+      "std": 4.1598308815681866e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 7,
+      "period": "3",
+      "decoder": "graded",
+      "mean": 0.00032670563924596405,
+      "std": 1.7297959958392678e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 7,
+      "period": "5",
+      "decoder": "flat",
+      "mean": 0.0011635064453562364,
+      "std": 9.340935468064375e-05,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 7,
+      "period": "5",
+      "decoder": "graded",
+      "mean": 0.0007348554007644706,
+      "std": 0.00011222686766304422,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 7,
+      "period": "none",
+      "decoder": "flat",
+      "mean": 0.008484287678997272,
+      "std": 0.00045218538742131743,
+      "count": 5
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 7,
+      "period": "none",
+      "decoder": "graded",
+      "mean": 0.0075727565679667205,
+      "std": 0.0005082570351229997,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "1",
+      "decoder": "blind",
+      "mean": 0.016639167548654965,
+      "std": 0.00029528926797892156,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "1",
+      "decoder": "flat",
+      "mean": 0.010653512617222468,
+      "std": 0.00021248098907936772,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "1",
+      "decoder": "flat_uncal",
+      "mean": 0.01070578972032962,
+      "std": 0.0002210481430172335,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "1",
+      "decoder": "graded",
+      "mean": 0.010443012654157134,
+      "std": 0.00025029213062086964,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "1",
+      "decoder": "majority",
+      "mean": 0.029596613477759583,
+      "std": 0.00030764773615427006,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "1",
+      "decoder": "oracle",
+      "mean": 0.008080986586823786,
+      "std": 0.00016970909496490466,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "2",
+      "decoder": "blind",
+      "mean": 0.018575809293450818,
+      "std": 0.000374195880224056,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "2",
+      "decoder": "flat",
+      "mean": 0.01035600968782224,
+      "std": 0.00016064569744497304,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "2",
+      "decoder": "flat_uncal",
+      "mean": 0.01044256573821625,
+      "std": 0.00013254914659900646,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "2",
+      "decoder": "graded",
+      "mean": 0.009212389998066648,
+      "std": 8.615396909997727e-05,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "2",
+      "decoder": "majority",
+      "mean": 0.023968214349058683,
+      "std": 0.0004688946145888492,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "2",
+      "decoder": "oracle",
+      "mean": 0.0070614032514138446,
+      "std": 7.26937853101587e-05,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "3",
+      "decoder": "blind",
+      "mean": 0.020380743095789012,
+      "std": 0.00021591440040910043,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "3",
+      "decoder": "flat",
+      "mean": 0.011159897512140585,
+      "std": 0.00016585437358466635,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "3",
+      "decoder": "flat_uncal",
+      "mean": 0.010759670384541549,
+      "std": 0.00018751097327799593,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "3",
+      "decoder": "graded",
+      "mean": 0.009925484628015239,
+      "std": 0.0002496278025420521,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "3",
+      "decoder": "majority",
+      "mean": 0.021394291425675168,
+      "std": 0.00036865638150205627,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "3",
+      "decoder": "oracle",
+      "mean": 0.007010047606899508,
+      "std": 0.0002152854483414285,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "5",
+      "decoder": "blind",
+      "mean": 0.02234852809371116,
+      "std": 0.0003882162010641528,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "5",
+      "decoder": "flat",
+      "mean": 0.011343866985975688,
+      "std": 0.0003949725348835739,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "5",
+      "decoder": "flat_uncal",
+      "mean": 0.010483144134993553,
+      "std": 0.00030681207155433077,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "5",
+      "decoder": "graded",
+      "mean": 0.010278832476142426,
+      "std": 0.0003294991870974959,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "5",
+      "decoder": "majority",
+      "mean": 0.017933649177654373,
+      "std": 0.0001623783481065596,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "5",
+      "decoder": "oracle",
+      "mean": 0.006578491111717261,
+      "std": 0.00025098725985248506,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "none",
+      "decoder": "blind",
+      "mean": 0.02523487503454147,
+      "std": 0.00040095330419589656,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "none",
+      "decoder": "flat",
+      "mean": 0.010255338362502387,
+      "std": 0.000241987182119207,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "none",
+      "decoder": "flat_uncal",
+      "mean": 0.008326779419666681,
+      "std": 0.00016486720736741568,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "none",
+      "decoder": "graded",
+      "mean": 0.009121745185704605,
+      "std": 0.00023410057204313836,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "none",
+      "decoder": "majority",
+      "mean": 0.013328840794382632,
+      "std": 0.0004575004984087511,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "period": "none",
+      "decoder": "oracle",
+      "mean": 0.004067852928816342,
+      "std": 0.00018962912131776898,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "1",
+      "decoder": "blind",
+      "mean": 0.007872097351747986,
+      "std": 0.00013493406405169626,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "1",
+      "decoder": "flat",
+      "mean": 0.003377956844939451,
+      "std": 8.453201835840935e-05,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "1",
+      "decoder": "flat_uncal",
+      "mean": 0.003398766321758978,
+      "std": 9.50426559871992e-05,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "1",
+      "decoder": "graded",
+      "mean": 0.003324773772999623,
+      "std": 0.00011402731716357204,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "1",
+      "decoder": "majority",
+      "mean": 0.030053222669559176,
+      "std": 0.0011176436907000334,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "1",
+      "decoder": "oracle",
+      "mean": 0.002200882381625858,
+      "std": 6.539745169691301e-05,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "2",
+      "decoder": "blind",
+      "mean": 0.008749773119598916,
+      "std": 0.00011058831656753726,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "2",
+      "decoder": "flat",
+      "mean": 0.0032542884312517484,
+      "std": 9.601572364736381e-05,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "2",
+      "decoder": "flat_uncal",
+      "mean": 0.003217329628722469,
+      "std": 0.00010588800614621117,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "2",
+      "decoder": "graded",
+      "mean": 0.0029259311683669798,
+      "std": 0.00016013259933634025,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "2",
+      "decoder": "majority",
+      "mean": 0.023406053144727414,
+      "std": 0.0008996790109545042,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "2",
+      "decoder": "oracle",
+      "mean": 0.0017030441560633048,
+      "std": 7.409022928465092e-05,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "3",
+      "decoder": "blind",
+      "mean": 0.009778447308356513,
+      "std": 0.0002442871512119598,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "3",
+      "decoder": "flat",
+      "mean": 0.003895773795159463,
+      "std": 0.0001410282562605744,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "3",
+      "decoder": "flat_uncal",
+      "mean": 0.0034302224083866857,
+      "std": 0.00014013303787357035,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "3",
+      "decoder": "graded",
+      "mean": 0.003305852655617149,
+      "std": 0.0002168769460920961,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "3",
+      "decoder": "majority",
+      "mean": 0.01981819505385141,
+      "std": 0.0003774323247481252,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "3",
+      "decoder": "oracle",
+      "mean": 0.0017051531440540433,
+      "std": 8.716234764066048e-05,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "5",
+      "decoder": "blind",
+      "mean": 0.013537327207907512,
+      "std": 0.0002943413347918279,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "5",
+      "decoder": "flat",
+      "mean": 0.005508121978474892,
+      "std": 0.00015245405617090137,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "5",
+      "decoder": "flat_uncal",
+      "mean": 0.004474550690247633,
+      "std": 0.00015577635213717526,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "5",
+      "decoder": "graded",
+      "mean": 0.004626601240036115,
+      "std": 0.00013207547570633345,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "5",
+      "decoder": "majority",
+      "mean": 0.01765984339085075,
+      "std": 0.000221253362829387,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "5",
+      "decoder": "oracle",
+      "mean": 0.0021567959975192985,
+      "std": 0.00010004138747276131,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "none",
+      "decoder": "blind",
+      "mean": 0.025739611582305776,
+      "std": 0.0006613071734008398,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "none",
+      "decoder": "flat",
+      "mean": 0.007717286464464762,
+      "std": 0.00023616418213495384,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "none",
+      "decoder": "flat_uncal",
+      "mean": 0.004945951481642231,
+      "std": 6.527540326857016e-05,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "none",
+      "decoder": "graded",
+      "mean": 0.0067104367839411734,
+      "std": 0.00025562530955672584,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "none",
+      "decoder": "majority",
+      "mean": 0.010982811199068819,
+      "std": 0.0002025032725875854,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "period": "none",
+      "decoder": "oracle",
+      "mean": 0.0015857693728482222,
+      "std": 8.280266947564283e-05,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 7,
+      "period": "1",
+      "decoder": "flat",
+      "mean": 0.001216131689525033,
+      "std": 6.405891554265222e-05,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 7,
+      "period": "1",
+      "decoder": "graded",
+      "mean": 0.0012281360109732626,
+      "std": 8.966482010899497e-05,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 7,
+      "period": "2",
+      "decoder": "flat",
+      "mean": 0.0012146710445620527,
+      "std": 9.097443776679402e-05,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 7,
+      "period": "2",
+      "decoder": "graded",
+      "mean": 0.0010595809827888647,
+      "std": 9.396188696609094e-05,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 7,
+      "period": "3",
+      "decoder": "flat",
+      "mean": 0.00140681491727244,
+      "std": 0.00017791643593635998,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 7,
+      "period": "3",
+      "decoder": "graded",
+      "mean": 0.0011159866190015779,
+      "std": 0.0001532754675337133,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 7,
+      "period": "5",
+      "decoder": "flat",
+      "mean": 0.0021974338955585617,
+      "std": 0.0001409471041613798,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 7,
+      "period": "5",
+      "decoder": "graded",
+      "mean": 0.0015979664090181697,
+      "std": 8.333828196820954e-05,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 7,
+      "period": "none",
+      "decoder": "flat",
+      "mean": 0.008484287678997272,
+      "std": 0.00045218538742131743,
+      "count": 5
+    },
+    {
+      "scenario": "costly_check",
+      "d": 7,
+      "period": "none",
+      "decoder": "graded",
+      "mean": 0.0075727565679667205,
+      "std": 0.0005082570351229997,
+      "count": 5
+    }
+  ],
+  "best_period_graded": [
+    {
+      "scenario": "cheap_check",
+      "d": 3,
+      "best_period": "2",
+      "eps_ref": 0.005282441242698993,
+      "eps_best": 0.005155700362425992,
+      "gain": 0.023008603725686423,
+      "gain_se": 0.01864579781782841,
+      "significant": false
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 5,
+      "best_period": "1",
+      "eps_ref": 0.0008918401177692575,
+      "eps_best": 0.0008918401177692575,
+      "gain": 0.0,
+      "gain_se": 0.0,
+      "significant": false
+    },
+    {
+      "scenario": "cheap_check",
+      "d": 7,
+      "best_period": "1",
+      "eps_ref": 0.00013372420312165602,
+      "eps_best": 0.00013372420312165602,
+      "gain": 0.0,
+      "gain_se": 0.0,
+      "significant": false
+    },
+    {
+      "scenario": "costly_check",
+      "d": 3,
+      "best_period": "none",
+      "eps_ref": 0.010443012654157133,
+      "eps_best": 0.009121745185704605,
+      "gain": 0.12636834398739072,
+      "gain_se": 0.008979913009676663,
+      "significant": true
+    },
+    {
+      "scenario": "costly_check",
+      "d": 5,
+      "best_period": "2",
+      "eps_ref": 0.003324773772999623,
+      "eps_best": 0.0029259311683669798,
+      "gain": 0.1188159534285611,
+      "gain_se": 0.02732538680337591,
+      "significant": true
+    },
+    {
+      "scenario": "costly_check",
+      "d": 7,
+      "best_period": "2",
+      "eps_ref": 0.0012281360109732623,
+      "eps_best": 0.0010595809827888645,
+      "gain": 0.1326048072649766,
+      "gain_se": 0.05118265958280808,
+      "significant": true
+    }
+  ],
+  "phase_cells": 25,
+  "phase_cells_significant_gain": 10,
+  "phase_max_gain": 0.25734787730663905,
+  "phase_cells_best_gt1": 16,
+  "sweep_best": [
+    {
+      "sweep": "eta",
+      "value": 0.5,
+      "best_period": "1",
+      "eps_ref": 0.00784260653254022,
+      "eps_best": 0.00784260653254022,
+      "gain": 0.0,
+      "gain_se": 0.0,
+      "significant": false
+    },
+    {
+      "sweep": "eta",
+      "value": 0.7,
+      "best_period": "1",
+      "eps_ref": 0.0043706599586084,
+      "eps_best": 0.0043706599586084,
+      "gain": 0.0,
+      "gain_se": 0.0,
+      "significant": false
+    },
+    {
+      "sweep": "eta",
+      "value": 0.9,
+      "best_period": "2",
+      "eps_ref": 0.002635282563788996,
+      "eps_best": 0.0021776269272522574,
+      "gain": 0.17360461641669522,
+      "gain_se": 0.017290264147692073,
+      "significant": true
+    },
+    {
+      "sweep": "eta",
+      "value": 0.99,
+      "best_period": "3",
+      "eps_ref": 0.0020095633104719834,
+      "eps_best": 0.0015948318092810557,
+      "gain": 0.20632636213115907,
+      "gain_se": 0.029973877405551363,
+      "significant": true
+    },
+    {
+      "sweep": "lam",
+      "value": 0.02,
+      "best_period": "6",
+      "eps_ref": 0.001018007696564394,
+      "eps_best": 0.000517085356222075,
+      "gain": 0.4913047828459188,
+      "gain_se": 0.016010947591306564,
+      "significant": true
+    },
+    {
+      "sweep": "lam",
+      "value": 0.06,
+      "best_period": "2",
+      "eps_ref": 0.003484633582190915,
+      "eps_best": 0.0029556590689917145,
+      "gain": 0.15174198244853881,
+      "gain_se": 0.017896169557457545,
+      "significant": true
+    },
+    {
+      "sweep": "lam",
+      "value": 0.12,
+      "best_period": "1",
+      "eps_ref": 0.010069017867215526,
+      "eps_best": 0.010069017867215526,
+      "gain": 0.0,
+      "gain_se": 0.0,
+      "significant": false
+    },
+    {
+      "sweep": "lam",
+      "value": 0.2,
+      "best_period": "1",
+      "eps_ref": 0.024714072727367548,
+      "eps_best": 0.024714072727367548,
+      "gain": 0.0,
+      "gain_se": 0.0,
+      "significant": false
+    }
+  ],
+  "decoder_ablation": [
+    {
+      "scenario": "cheap_check",
+      "period": "1",
+      "decoder": "blind",
+      "rel_gain_vs_flat": -2.2869743883192286,
+      "se": 0.08101380964081663
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "1",
+      "decoder": "flat_uncal",
+      "rel_gain_vs_flat": 0.26529865820217413,
+      "se": 0.010911002297207817
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "1",
+      "decoder": "graded",
+      "rel_gain_vs_flat": 0.07221256077419819,
+      "se": 0.017940230042973217
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "1",
+      "decoder": "majority",
+      "rel_gain_vs_flat": -18.04696506094507,
+      "se": 0.6478333963952189
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "1",
+      "decoder": "oracle",
+      "rel_gain_vs_flat": 0.640780235377675,
+      "se": 0.01190579544613846
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "2",
+      "decoder": "blind",
+      "rel_gain_vs_flat": -2.9652700407432704,
+      "se": 0.16129186100476478
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "2",
+      "decoder": "flat_uncal",
+      "rel_gain_vs_flat": 0.201534498219231,
+      "se": 0.019188874365583128
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "2",
+      "decoder": "graded",
+      "rel_gain_vs_flat": 0.14411620150420215,
+      "se": 0.01845149764798272
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "2",
+      "decoder": "majority",
+      "rel_gain_vs_flat": -12.411089907526923,
+      "se": 0.7215981110389336
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "2",
+      "decoder": "oracle",
+      "rel_gain_vs_flat": 0.6839615343063912,
+      "se": 0.011183163431103304
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "3",
+      "decoder": "blind",
+      "rel_gain_vs_flat": -2.854257317749428,
+      "se": 0.12368003593171008
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "3",
+      "decoder": "flat_uncal",
+      "rel_gain_vs_flat": 0.29731366972616924,
+      "se": 0.018897447279341815
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "3",
+      "decoder": "graded",
+      "rel_gain_vs_flat": 0.2054791474135101,
+      "se": 0.03488340166543931
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "3",
+      "decoder": "majority",
+      "rel_gain_vs_flat": -7.155837002001597,
+      "se": 0.28395028021760493
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "3",
+      "decoder": "oracle",
+      "rel_gain_vs_flat": 0.7526903834797857,
+      "se": 0.01325807481756121
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "5",
+      "decoder": "blind",
+      "rel_gain_vs_flat": -2.2610321653109238,
+      "se": 0.040562633959148824
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "5",
+      "decoder": "flat_uncal",
+      "rel_gain_vs_flat": 0.3448798566579312,
+      "se": 0.013500868325005183
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "5",
+      "decoder": "graded",
+      "rel_gain_vs_flat": 0.22189067706846077,
+      "se": 0.0069888977307091486
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "5",
+      "decoder": "majority",
+      "rel_gain_vs_flat": -2.8514255532379105,
+      "se": 0.030491099335423127
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "5",
+      "decoder": "oracle",
+      "rel_gain_vs_flat": 0.7625522515884359,
+      "se": 0.008879278404007795
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "none",
+      "decoder": "blind",
+      "rel_gain_vs_flat": -2.337631273066653,
+      "se": 0.057087961323605246
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "none",
+      "decoder": "flat_uncal",
+      "rel_gain_vs_flat": 0.3588150732714495,
+      "se": 0.0055857245799036115
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "none",
+      "decoder": "graded",
+      "rel_gain_vs_flat": 0.13041769840557524,
+      "se": 0.009935193683658236
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "none",
+      "decoder": "majority",
+      "rel_gain_vs_flat": -0.42378939524438125,
+      "se": 0.014892294927606877
+    },
+    {
+      "scenario": "cheap_check",
+      "period": "none",
+      "decoder": "oracle",
+      "rel_gain_vs_flat": 0.7943770511870492,
+      "se": 0.005482772927315227
+    },
+    {
+      "scenario": "costly_check",
+      "period": "1",
+      "decoder": "blind",
+      "rel_gain_vs_flat": -1.3315821887865684,
+      "se": 0.03140901280839083
+    },
+    {
+      "scenario": "costly_check",
+      "period": "1",
+      "decoder": "flat_uncal",
+      "rel_gain_vs_flat": -0.00611097762710879,
+      "se": 0.0025692275457734255
+    },
+    {
+      "scenario": "costly_check",
+      "period": "1",
+      "decoder": "graded",
+      "rel_gain_vs_flat": 0.0158992714834925,
+      "se": 0.005484225995906227
+    },
+    {
+      "scenario": "costly_check",
+      "period": "1",
+      "decoder": "majority",
+      "rel_gain_vs_flat": -7.898245498556365,
+      "se": 0.13638859450837978
+    },
+    {
+      "scenario": "costly_check",
+      "period": "1",
+      "decoder": "oracle",
+      "rel_gain_vs_flat": 0.34838636579775717,
+      "se": 0.006833324572187805
+    },
+    {
+      "scenario": "costly_check",
+      "period": "2",
+      "decoder": "blind",
+      "rel_gain_vs_flat": -1.690786557748213,
+      "se": 0.04239804626173321
+    },
+    {
+      "scenario": "costly_check",
+      "period": "2",
+      "decoder": "flat_uncal",
+      "rel_gain_vs_flat": 0.011416142484401495,
+      "se": 0.0034772704091613612
+    },
+    {
+      "scenario": "costly_check",
+      "period": "2",
+      "decoder": "graded",
+      "rel_gain_vs_flat": 0.10133088063728424,
+      "se": 0.012408078185571967
+    },
+    {
+      "scenario": "costly_check",
+      "period": "2",
+      "decoder": "majority",
+      "rel_gain_vs_flat": -6.19451409878082,
+      "se": 0.11736284069231473
+    },
+    {
+      "scenario": "costly_check",
+      "period": "2",
+      "decoder": "oracle",
+      "rel_gain_vs_flat": 0.4765523236021526,
+      "se": 0.009396547253414286
+    },
+    {
+      "scenario": "costly_check",
+      "period": "3",
+      "decoder": "blind",
+      "rel_gain_vs_flat": -1.5117433853594324,
+      "se": 0.03581146572904242
+    },
+    {
+      "scenario": "costly_check",
+      "period": "3",
+      "decoder": "flat_uncal",
+      "rel_gain_vs_flat": 0.1195773080634683,
+      "se": 0.004889892063503624
+    },
+    {
+      "scenario": "costly_check",
+      "period": "3",
+      "decoder": "graded",
+      "rel_gain_vs_flat": 0.15149957361704014,
+      "se": 0.019708032012560384
+    },
+    {
+      "scenario": "costly_check",
+      "period": "3",
+      "decoder": "majority",
+      "rel_gain_vs_flat": -4.093744460387627,
+      "se": 0.10931410296141128
+    },
+    {
+      "scenario": "costly_check",
+      "period": "3",
+      "decoder": "oracle",
+      "rel_gain_vs_flat": 0.5624564289371573,
+      "se": 0.004134476281303117
+    },
+    {
+      "scenario": "costly_check",
+      "period": "5",
+      "decoder": "blind",
+      "rel_gain_vs_flat": -1.4585463120275488,
+      "se": 0.026236715117180398
+    },
+    {
+      "scenario": "costly_check",
+      "period": "5",
+      "decoder": "flat_uncal",
+      "rel_gain_vs_flat": 0.18761669903939654,
+      "se": 0.008302809934048723
+    },
+    {
+      "scenario": "costly_check",
+      "period": "5",
+      "decoder": "graded",
+      "rel_gain_vs_flat": 0.1599380596562882,
+      "se": 0.006867121125658542
+    },
+    {
+      "scenario": "costly_check",
+      "period": "5",
+      "decoder": "majority",
+      "rel_gain_vs_flat": -2.2085303714537705,
+      "se": 0.05079061596867862
+    },
+    {
+      "scenario": "costly_check",
+      "period": "5",
+      "decoder": "oracle",
+      "rel_gain_vs_flat": 0.6083698861693669,
+      "se": 0.007469763538352942
+    },
+    {
+      "scenario": "costly_check",
+      "period": "none",
+      "decoder": "blind",
+      "rel_gain_vs_flat": -2.337631273066653,
+      "se": 0.057087961323605246
+    },
+    {
+      "scenario": "costly_check",
+      "period": "none",
+      "decoder": "flat_uncal",
+      "rel_gain_vs_flat": 0.3588150732714495,
+      "se": 0.0055857245799036115
+    },
+    {
+      "scenario": "costly_check",
+      "period": "none",
+      "decoder": "graded",
+      "rel_gain_vs_flat": 0.13041769840557524,
+      "se": 0.009935193683658236
+    },
+    {
+      "scenario": "costly_check",
+      "period": "none",
+      "decoder": "majority",
+      "rel_gain_vs_flat": -0.42378939524438125,
+      "se": 0.014892294927606877
+    },
+    {
+      "scenario": "costly_check",
+      "period": "none",
+      "decoder": "oracle",
+      "rel_gain_vs_flat": 0.7943770511870492,
+      "se": 0.005482772927315227
+    }
+  ],
+  "eps_phys_unencoded_per_us": 0.034,
+  "runtime_s": 782.8983054161072
+}
